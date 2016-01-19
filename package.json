@@ -1,0 +1,29 @@
+{
+  "name": "gengis",
+  "version": "0.0.1",
+  "description": "Full GIS support for Mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install.js"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "geospatial",
+    "gis",
+    "geodata",
+    "genghis",
+    "ghengis"
+  ],
+  "author": "Alex Webb <alexwebb2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongojs": "^2.3.0",
+    "prompt": "^0.2.14",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "turf": "^2.0.2"
+  }
+}
